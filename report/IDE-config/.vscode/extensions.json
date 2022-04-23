@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "esbenp.prettier-vscode",
+        "matangover.mypy",
+        "ms-python.python",
+        "mkaufman.HTMLHint"
+    ]
+}

@@ -1,0 +1,1134 @@
+{
+    "file_extensions": [
+        ".py",
+        ".yml",
+        ".yaml",
+        ".json",
+        ".sh",
+        ".bash",
+        ".dash",
+        ".ksh",
+        ".c",
+        ".h",
+        ".clj",
+        ".cljs",
+        ".cljc",
+        ".edn",
+        ".coffee",
+        ".cpp",
+        ".cc",
+        ".hpp",
+        ".cxx",
+        ".cu",
+        ".hxx",
+        ".c++",
+        ".hh",
+        ".h++",
+        ".cuh",
+        ".cs",
+        ".css",
+        ".scss",
+        ".saas",
+        ".dart",
+        ".env",
+        ".feature",
+        ".go",
+        ".graphql",
+        ".groovy",
+        ".gvy",
+        ".gradle",
+        ".nf",
+        ".html",
+        ".htm",
+        ".java",
+        ".js",
+        ".json5",
+        ".jsonc",
+        ".kt",
+        ".kts",
+        ".tex",
+        ".lua",
+        ".md",
+        ".pl",
+        ".pm",
+        ".t",
+        "",
+        ".php",
+        ".ps1",
+        ".psm1",
+        ".psd1",
+        ".ps1xml",
+        ".pssc",
+        ".psrc",
+        ".cdxml",
+        ".proto",
+        ".pp",
+        ".r",
+        ".R",
+        ".Rmd",
+        ".RMD",
+        ".raku",
+        ".rakumod",
+        ".rakutest",
+        ".pm6",
+        ".pl6",
+        ".p6",
+        ".rst",
+        ".rb",
+        ".rs",
+        ".scala",
+        ".smk",
+        ".sql",
+        ".tf",
+        ".hcl",
+        ".ts",
+        ".vb",
+        ".xml"
+    ],
+    "file_names_regex": [
+        "Dockerfile",
+        "Jenkinsfile",
+        "Snakefile"
+    ],
+    "has_updated_sources": 1,
+    "linters": [
+        {
+            "descriptor_id": "COPYPASTE",
+            "descriptor_type": "other",
+            "elapsed_time_s": 0.834621234999986,
+            "files": [],
+            "files_lint_results": [],
+            "files_number": 0,
+            "is_active": true,
+            "linter_name": "jscpd",
+            "name": "COPYPASTE_JSCPD",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "CREDENTIALS",
+            "descriptor_type": "other",
+            "elapsed_time_s": 0.758463986999999,
+            "files": [],
+            "files_lint_results": [],
+            "files_number": 0,
+            "is_active": true,
+            "linter_name": "secretlint",
+            "name": "CREDENTIALS_SECRETLINT",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "GIT",
+            "descriptor_type": "other",
+            "elapsed_time_s": 0.009827124999986836,
+            "files": [],
+            "files_lint_results": [],
+            "files_number": 0,
+            "is_active": true,
+            "linter_name": "git_diff",
+            "name": "GIT_GIT_DIFF",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "HTML",
+            "descriptor_type": "format",
+            "elapsed_time_s": 0.2714316800000063,
+            "files": [
+                "/github/workspace/src/templates/users/users_main.html"
+            ],
+            "files_lint_results": [
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/templates/users/users_main.html",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                }
+            ],
+            "files_number": 1,
+            "is_active": true,
+            "linter_name": "htmlhint",
+            "name": "HTML_HTMLHINT",
+            "number_errors": 1,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "warning",
+            "total_number_errors": 1
+        },
+        {
+            "descriptor_id": "MARKDOWN",
+            "descriptor_type": "format",
+            "elapsed_time_s": 0.2897522469999956,
+            "files": [
+                "/github/workspace/README.md"
+            ],
+            "files_lint_results": [
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/README.md",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                }
+            ],
+            "files_number": 1,
+            "is_active": true,
+            "linter_name": "markdownlint",
+            "name": "MARKDOWN_MARKDOWNLINT",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "MARKDOWN",
+            "descriptor_type": "format",
+            "elapsed_time_s": 0.2789769600000227,
+            "files": [
+                "/github/workspace/README.md"
+            ],
+            "files_lint_results": [
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/README.md",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                }
+            ],
+            "files_number": 1,
+            "is_active": true,
+            "linter_name": "markdown-link-check",
+            "name": "MARKDOWN_MARKDOWN_LINK_CHECK",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "MARKDOWN",
+            "descriptor_type": "format",
+            "elapsed_time_s": 0.2666272740000011,
+            "files": [
+                "/github/workspace/README.md"
+            ],
+            "files_lint_results": [
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/README.md",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                }
+            ],
+            "files_number": 1,
+            "is_active": true,
+            "linter_name": "markdown-table-formatter",
+            "name": "MARKDOWN_MARKDOWN_TABLE_FORMATTER",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "PYTHON",
+            "descriptor_type": "language",
+            "elapsed_time_s": 0.3836106220000204,
+            "files": [
+                "/github/workspace/src/manage.py",
+                "/github/workspace/src/users/admin.py",
+                "/github/workspace/src/users/apps.py",
+                "/github/workspace/src/users/models.py",
+                "/github/workspace/src/users/urls.py",
+                "/github/workspace/src/users/views.py",
+                "/github/workspace/src/website/asgi.py",
+                "/github/workspace/src/website/settings.py",
+                "/github/workspace/src/website/urls.py",
+                "/github/workspace/src/website/wsgi.py"
+            ],
+            "files_lint_results": [
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/manage.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/admin.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/apps.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/models.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/urls.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/views.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/website/asgi.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/website/settings.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/website/urls.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/website/wsgi.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                }
+            ],
+            "files_number": 10,
+            "is_active": true,
+            "linter_name": "bandit",
+            "name": "PYTHON_BANDIT",
+            "number_errors": 1,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "warning",
+            "total_number_errors": 1
+        },
+        {
+            "descriptor_id": "PYTHON",
+            "descriptor_type": "language",
+            "elapsed_time_s": 0.3586265319999882,
+            "files": [
+                "/github/workspace/src/manage.py",
+                "/github/workspace/src/users/admin.py",
+                "/github/workspace/src/users/apps.py",
+                "/github/workspace/src/users/models.py",
+                "/github/workspace/src/users/tests.py",
+                "/github/workspace/src/users/urls.py",
+                "/github/workspace/src/users/views.py",
+                "/github/workspace/src/website/asgi.py",
+                "/github/workspace/src/website/settings.py",
+                "/github/workspace/src/website/urls.py",
+                "/github/workspace/src/website/wsgi.py"
+            ],
+            "files_lint_results": [
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/manage.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/admin.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/apps.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/models.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/tests.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/urls.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/views.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/website/asgi.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/website/settings.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/website/urls.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/website/wsgi.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                }
+            ],
+            "files_number": 11,
+            "is_active": true,
+            "linter_name": "black",
+            "name": "PYTHON_BLACK",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "PYTHON",
+            "descriptor_type": "language",
+            "elapsed_time_s": 0.418639651999996,
+            "files": [
+                "/github/workspace/src/manage.py",
+                "/github/workspace/src/users/admin.py",
+                "/github/workspace/src/users/apps.py",
+                "/github/workspace/src/users/models.py",
+                "/github/workspace/src/users/tests.py",
+                "/github/workspace/src/users/urls.py",
+                "/github/workspace/src/users/views.py",
+                "/github/workspace/src/website/asgi.py",
+                "/github/workspace/src/website/settings.py",
+                "/github/workspace/src/website/urls.py",
+                "/github/workspace/src/website/wsgi.py"
+            ],
+            "files_lint_results": [
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/manage.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/admin.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/apps.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/models.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/tests.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/urls.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/views.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/website/asgi.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/website/settings.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/website/urls.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/website/wsgi.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                }
+            ],
+            "files_number": 11,
+            "is_active": true,
+            "linter_name": "flake8",
+            "name": "PYTHON_FLAKE8",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "PYTHON",
+            "descriptor_type": "language",
+            "elapsed_time_s": 0.16021539999999845,
+            "files": [
+                "/github/workspace/src/manage.py",
+                "/github/workspace/src/users/admin.py",
+                "/github/workspace/src/users/apps.py",
+                "/github/workspace/src/users/models.py",
+                "/github/workspace/src/users/tests.py",
+                "/github/workspace/src/users/urls.py",
+                "/github/workspace/src/users/views.py",
+                "/github/workspace/src/website/asgi.py",
+                "/github/workspace/src/website/settings.py",
+                "/github/workspace/src/website/urls.py",
+                "/github/workspace/src/website/wsgi.py"
+            ],
+            "files_lint_results": [
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/manage.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/admin.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/apps.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/models.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/tests.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/urls.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/views.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/website/asgi.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/website/settings.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/website/urls.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/website/wsgi.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                }
+            ],
+            "files_number": 11,
+            "is_active": true,
+            "linter_name": "isort",
+            "name": "PYTHON_ISORT",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "PYTHON",
+            "descriptor_type": "language",
+            "elapsed_time_s": 4.237623170000006,
+            "files": [
+                "/github/workspace/src/manage.py",
+                "/github/workspace/src/users/admin.py",
+                "/github/workspace/src/users/apps.py",
+                "/github/workspace/src/users/models.py",
+                "/github/workspace/src/users/tests.py",
+                "/github/workspace/src/users/urls.py",
+                "/github/workspace/src/users/views.py",
+                "/github/workspace/src/website/asgi.py",
+                "/github/workspace/src/website/settings.py",
+                "/github/workspace/src/website/urls.py",
+                "/github/workspace/src/website/wsgi.py"
+            ],
+            "files_lint_results": [
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/manage.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/admin.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/apps.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/models.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/tests.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/urls.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/views.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/website/asgi.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/website/settings.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/website/urls.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/website/wsgi.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                }
+            ],
+            "files_number": 11,
+            "is_active": true,
+            "linter_name": "mypy",
+            "name": "PYTHON_MYPY",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "PYTHON",
+            "descriptor_type": "language",
+            "elapsed_time_s": 1.3520661780000012,
+            "files": [
+                "/github/workspace/src/manage.py",
+                "/github/workspace/src/users/admin.py",
+                "/github/workspace/src/users/apps.py",
+                "/github/workspace/src/users/models.py",
+                "/github/workspace/src/users/tests.py",
+                "/github/workspace/src/users/urls.py",
+                "/github/workspace/src/users/views.py",
+                "/github/workspace/src/website/asgi.py",
+                "/github/workspace/src/website/settings.py",
+                "/github/workspace/src/website/urls.py",
+                "/github/workspace/src/website/wsgi.py"
+            ],
+            "files_lint_results": [
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/manage.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/admin.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/apps.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/models.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/tests.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/urls.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/users/views.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/website/asgi.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/website/settings.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/website/urls.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/src/website/wsgi.py",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                }
+            ],
+            "files_number": 11,
+            "is_active": true,
+            "linter_name": "pylint",
+            "name": "PYTHON_PYLINT",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "YAML",
+            "descriptor_type": "format",
+            "elapsed_time_s": 0.5982885900000099,
+            "files": [
+                "/github/workspace/.mega-linter.yml",
+                "/github/workspace/.pre-commit-config.yaml"
+            ],
+            "files_lint_results": [
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/.mega-linter.yml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/.pre-commit-config.yaml",
+                    "fixed": true,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                }
+            ],
+            "files_number": 2,
+            "is_active": true,
+            "linter_name": "prettier",
+            "name": "YAML_PRETTIER",
+            "number_errors": 0,
+            "number_fixed": 1,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "YAML",
+            "descriptor_type": "format",
+            "elapsed_time_s": 3.7939576520000173,
+            "files": [
+                "/github/workspace/.mega-linter.yml",
+                "/github/workspace/.pre-commit-config.yaml"
+            ],
+            "files_lint_results": [
+                {
+                    "errors_number": 0,
+                    "file": "/github/workspace/.mega-linter.yml",
+                    "fixed": false,
+                    "status": "success",
+                    "status_code": 0,
+                    "stdout": "\u2139\ufe0f Found schema in https://www.schemastore.org/api/json/catalog.json ...\nValidating /github/workspace/.mega-linter.yml against schema from https://raw.githubusercontent.com/megalinter/megalinter/main/megalinter/descriptors/schemas/megalinter-configuration.jsonschema.json ...\n\u2705 /github/workspace/.mega-linter.yml is valid\n"
+                },
+                {
+                    "errors_number": 0,
+                    "file": "/github/workspace/.pre-commit-config.yaml",
+                    "fixed": false,
+                    "status": "success",
+                    "status_code": 0,
+                    "stdout": "\u2139\ufe0f Found schema in https://www.schemastore.org/api/json/catalog.json ...\nValidating /github/workspace/.pre-commit-config.yaml against schema from https://json.schemastore.org/pre-commit-config.json ...\n\u2705 /github/workspace/.pre-commit-config.yaml is valid\n"
+                }
+            ],
+            "files_number": 2,
+            "is_active": true,
+            "linter_name": "v8r",
+            "name": "YAML_V8R",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        },
+        {
+            "descriptor_id": "YAML",
+            "descriptor_type": "format",
+            "elapsed_time_s": 0.15021574299998974,
+            "files": [
+                "/github/workspace/.mega-linter.yml",
+                "/github/workspace/.pre-commit-config.yaml"
+            ],
+            "files_lint_results": [
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/.mega-linter.yml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                },
+                {
+                    "errors_number": null,
+                    "file": "/github/workspace/.pre-commit-config.yaml",
+                    "fixed": false,
+                    "status": null,
+                    "status_code": null,
+                    "stdout": null
+                }
+            ],
+            "files_number": 2,
+            "is_active": true,
+            "linter_name": "yamllint",
+            "name": "YAML_YAMLLINT",
+            "number_errors": 0,
+            "number_fixed": 0,
+            "return_code": 0,
+            "status": "success",
+            "total_number_errors": 0
+        }
+    ],
+    "post_commands_results": [
+        {
+            "command_info": {
+                "command": "echo \"This is MegaLinter POST_COMMAND on own MegaLinter ! :)\"",
+                "cwd": "workspace"
+            },
+            "status": 0,
+            "stdout": "This is MegaLinter POST_COMMAND on own MegaLinter ! :)\n"
+        }
+    ],
+    "pre_commands_results": [
+        {
+            "command_info": {
+                "command": "echo \"This is MegaLinter PRE_COMMAND on own MegaLinter ! :)\"",
+                "cwd": "root"
+            },
+            "status": 0,
+            "stdout": "This is MegaLinter PRE_COMMAND on own MegaLinter ! :)\n"
+        }
+    ],
+    "report_folder": "/github/workspace/report",
+    "reporters": [
+        {
+            "is_active": true,
+            "master": null,
+            "name": "CONFIG",
+            "processing_order": 0,
+            "report_folder": "/github/workspace/report",
+            "report_items": []
+        },
+        {
+            "is_active": true,
+            "master": null,
+            "name": "CONSOLE",
+            "processing_order": 0,
+            "report_folder": "/github/workspace/report",
+            "report_items": []
+        },
+        {
+            "is_active": true,
+            "master": null,
+            "name": "FILEIO",
+            "processing_order": 0,
+            "report_folder": "/github/workspace/report",
+            "report_items": []
+        },
+        {
+            "is_active": true,
+            "master": null,
+            "name": "GITHUB_COMMENT",
+            "processing_order": 0,
+            "report_folder": "/github/workspace/report",
+            "report_items": []
+        },
+        {
+            "is_active": true,
+            "master": null,
+            "name": "GITLAB_COMMENT",
+            "processing_order": 0,
+            "report_folder": "/github/workspace/report",
+            "report_items": []
+        },
+        {
+            "is_active": true,
+            "master": null,
+            "name": "JSON",
+            "processing_order": 0,
+            "report_folder": "/github/workspace/report",
+            "report_items": []
+        },
+        {
+            "is_active": true,
+            "master": null,
+            "name": "UPDATED_SOURCES",
+            "processing_order": 0,
+            "report_folder": "/github/workspace/report",
+            "report_items": []
+        }
+    ],
+    "return_code": 0,
+    "status": "warning"
+}
