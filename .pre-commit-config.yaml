@@ -91,16 +91,7 @@ repos:
       - id: python-use-type-annotations
 
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v0.942
+    rev: 'v0.942'  # Use the sha / tag you want to point at
     hooks:
       - id: mypy
-        files: ^(src/|testing/)
-        args: [--python-version 3.9]
-        additional_dependencies:
-          - iniconfig>=1.1.0
-          - py>=1.8.2
-          - attrs>=19.2.0
-          - packaging
-          - tomli
-          - types-atomicwrites
-          - types-pkg_resources
+        args: [--no-strict-optional, --ignore-missing-imports, --python-version 3.9]
