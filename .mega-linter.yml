@@ -12,6 +12,10 @@ DISABLE:
 DISABLE_LINTERS:
   - JSON_PRETTIER
 
+EXCLUDED_DIRECTORIES:
+  - report
+
+
 PRINT_ALL_FILES: false
 FILTER_REGEX_EXCLUDE: '(\.automation/test|\.automation/generated|\.github/workflows|docs/javascripts|docs/overrides|docs/json-schemas|flavors|clj-kondo|TEMPLATES|__init__.py|\.kubernetes/server/base)'
 JSON_JSONLINT_FILTER_REGEX_EXCLUDE: '(\.vscode/)'
