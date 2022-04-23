@@ -13,8 +13,7 @@ SECRET_KEY = "django-insecure-#(^qb8&3r_+0q18w12e=z$2p4!i)ehdzspt96@3+izjkibx(q%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS: list[str] = []
 
 # Application definition
 
@@ -76,7 +75,7 @@ DATABASES = {
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator",
+        "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator",  # noqa: E501
     },
     {
         "NAME": "django.contrib.auth.password_validation.MinimumLengthValidator",
