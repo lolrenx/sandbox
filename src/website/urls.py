@@ -1,9 +1,3 @@
-"""urls for the
-users app
-
-    """
-
-
 from django.contrib import admin
 from django.urls import include, path
 
