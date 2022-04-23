@@ -1,7 +1,7 @@
 {
     "recommendations": [
-        "matangover.mypy",
         "esbenp.prettier-vscode",
+        "matangover.mypy",
         "ms-python.python"
     ]
 }
