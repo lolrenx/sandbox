@@ -1,4 +1,4 @@
-"""urls for the 
+"""urls for the
 users app
 
     """
